@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SubcultripFeedBot</title>
+<style>
+ body{font:16px/1.7 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP","Apple SD Gothic Neo",sans-serif;max-width:46rem;margin:2rem auto;padding:0 16px;color:#222;background:#fff}
+ code{background:#f3f3f3;padding:.1em .3em;border-radius:3px}
+ h2{margin-top:2rem;font-size:1.1rem}
+ @media (prefers-color-scheme:dark){body{color:#ddd;background:#111}code{background:#222}}
+</style>
+</head>
+<body>
+<h1>SubcultripFeedBot</h1>
+<p>User-Agent: <code>SubcultripFeedBot/1.0 (+https://youngjoe-kwon.github.io/subcultrip-feed/bot.html)</code></p>
+
+<h2>日本語</h2>
+<p>このクローラーは、日本を旅行する韓国人向けの旅行会話アプリ（開発中）のために、イベント日程・期間限定コラボカフェの会期・店舗の営業状況といった<strong>公開されている事実情報</strong>を確認しています。</p>
+<ul>
+ <li>対象は公式サイトの公開ページのみ。ログインが必要なページ、SNS、チケット販売サイト、地図・レビューサイトにはアクセスしません。</li>
+ <li>頻度は原則として週1回（開催が近いイベントは1日1回）、同じホストへの間隔は3秒以上。robots.txt（Crawl-delay を含む）に従います。</li>
+ <li>保存・公開するのは日付・営業状況などの事実と出典URLのみです。本文・画像・ロゴを再配布することはありません。</li>
+ <li>アクセスを止めたい場合は robots.txt に次を追加してください：<br><code>User-agent: SubcultripFeedBot</code><br><code>Disallow: /</code></li>
+ <li>ご連絡・削除のご依頼： <a href="https://github.com/YoungJoe-Kwon/subcultrip-feed/issues">https://github.com/YoungJoe-Kwon/subcultrip-feed/issues</a></li>
+</ul>
+
+<h2>English</h2>
+<p>This crawler checks publicly available facts (event dates, limited-time collaboration cafe periods, store open/closed status) on official websites for a travel-phrase app for Korean visitors to Japan (in development). It never accesses login-only pages, social networks, ticketing sites, or map/review sites; it waits at least 3 seconds between requests to the same host and follows robots.txt including Crawl-delay. Only facts and source URLs are stored and published — no page text, images or logos. To opt out, add <code>User-agent: SubcultripFeedBot</code> / <code>Disallow: /</code> to your robots.txt. Contact or removal requests: <a href="https://github.com/YoungJoe-Kwon/subcultrip-feed/issues">GitHub issues</a>.</p>
+
+<h2>한국어</h2>
+<p>일본으로 여행 가는 한국인을 위한 여행 회화 앱(개발 중)이 행사 일정 · 기간 한정 콜라보 카페 기간 · 매장 영업 상태 같은 공개된 사실 정보를 공식 사이트에서 확인하는 수집 봇입니다. 로그인 페이지 · SNS · 티켓 판매 사이트 · 지도 · 리뷰 사이트는 수집하지 않고, 같은 호스트에는 3초 이상 간격을 두며 robots.txt를 따릅니다. 연락 · 삭제 요청은 위 GitHub 이슈로 보내 주세요.</p>
+</body>
+</html>
