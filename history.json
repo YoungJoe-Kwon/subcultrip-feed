@@ -1,0 +1,155 @@
+{
+ "_note": "최근 배포 기록(공개 · 앱은 읽지 않음)",
+ "deploys": [
+  {
+   "seq": 1,
+   "generated_at": "2026-10-16T16:20:38+09:00",
+   "files": {
+    "events": {
+     "path": "events.8cce3cf07a57.json",
+     "sha256": "8cce3cf07a575585bf2cb3d658ce5d2abd46f197fa414d3ea5b1eee56f778107",
+     "bytes": 1200
+    },
+    "campaigns": {
+     "path": "campaigns.b612127dbdfc.json",
+     "sha256": "b612127dbdfc9ca6ccc05862959fc2468e7b2c50112ca7946170964ef8900ebd",
+     "bytes": 1606
+    },
+    "status": {
+     "path": "status.438298ed6b8e.json",
+     "sha256": "438298ed6b8e87a3f2cc893915760b5a270c1b19a4af886177b414755a0d4dd8",
+     "bytes": 148
+    },
+    "fx": {
+     "path": "fx.c01e4bc45940.json",
+     "sha256": "c01e4bc45940c2934e151df9eb5760154134d96b5f99d89963d357e0c4a3fb6a",
+     "bytes": 58
+    }
+   },
+   "content_hash": {
+    "events": "3b5b2b00781e361b854b82794e83b8f20102b859e7b92fc17618b1f856654b0f",
+    "campaigns": "5207a79b53804c52e253a39d18a6a4d77aee51fa5415b2079ef8523c87fdaeb2",
+    "status": "1ec5b13b381bdcbca2c64958422b68c66d7b210e402a9edd1908acc871a8a2b9",
+    "fx": "d80595a91018af5f4ec38ec41fe98b92ca986d70b300a656375f5071f520f01a"
+   },
+   "counts": {
+    "events": 2,
+    "campaigns": 3,
+    "status": 1,
+    "fx": 1
+   },
+   "heartbeat": false
+  },
+  {
+   "seq": 2,
+   "generated_at": "2026-10-17T19:49:37+09:00",
+   "files": {
+    "events": {
+     "path": "events.d6066b188b44.json",
+     "sha256": "d6066b188b44302c7bad77b2a7aa787afb06581325383765e637ca597412e19b",
+     "bytes": 161159
+    },
+    "campaigns": {
+     "path": "campaigns.8a1f0f12b8de.json",
+     "sha256": "8a1f0f12b8debad80471e615e1ea035abd4bdce42cb7f70f8cbca8c9dacaa1d5",
+     "bytes": 344894
+    },
+    "status": {
+     "path": "status.b01e9544545a.json",
+     "sha256": "b01e9544545ab2669e7f2bf15fd75ed28cbd51d0b65d671d89a6b21b07a44a82",
+     "bytes": 21
+    }
+   },
+   "file_seq": {
+    "events": 2,
+    "campaigns": 2,
+    "status": 2
+   },
+   "content_hash": {
+    "events": "b4010af8bd8ec8d79954f8cdc4de17354245c4d28b48b5c69a163c99d06d9216",
+    "campaigns": "996d90e183a52da695d0acdd0545416b8d77e0ad267c54580bc0ed7f154561b0",
+    "status": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+   },
+   "counts": {
+    "events": 72,
+    "campaigns": 177,
+    "status": 0
+   },
+   "heartbeat": false
+  },
+  {
+   "seq": 3,
+   "generated_at": "2026-10-18T09:56:43+09:00",
+   "files": {
+    "events": {
+     "path": "events.41038c3d1e19.json",
+     "sha256": "41038c3d1e199a892e52333d4325f2865b1206226831291b962a451f807dc91b",
+     "bytes": 163122
+    },
+    "campaigns": {
+     "path": "campaigns.a72cb526d4db.json",
+     "sha256": "a72cb526d4db0a324771b50e1c616ca734ad6f903c52deb209f7c471a631847e",
+     "bytes": 351295
+    },
+    "status": {
+     "path": "status.b01e9544545a.json",
+     "sha256": "b01e9544545ab2669e7f2bf15fd75ed28cbd51d0b65d671d89a6b21b07a44a82",
+     "bytes": 21
+    }
+   },
+   "file_seq": {
+    "events": 3,
+    "campaigns": 3,
+    "status": 2
+   },
+   "content_hash": {
+    "events": "04ded1cc83f45c6c97673c4e6933474b10dd9d30bf03bf6b1fab55e38b23afc2",
+    "campaigns": "d129503e4564c6b47cf22f2e135e053690efda878c6498405991899d1179a155",
+    "status": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+   },
+   "counts": {
+    "events": 72,
+    "campaigns": 177,
+    "status": 0
+   },
+   "heartbeat": false
+  },
+  {
+   "seq": 4,
+   "generated_at": "2026-10-26T11:52:57+09:00",
+   "files": {
+    "events": {
+     "path": "events.41038c3d1e19.json",
+     "sha256": "41038c3d1e199a892e52333d4325f2865b1206226831291b962a451f807dc91b",
+     "bytes": 163122
+    },
+    "campaigns": {
+     "path": "campaigns.a72cb526d4db.json",
+     "sha256": "a72cb526d4db0a324771b50e1c616ca734ad6f903c52deb209f7c471a631847e",
+     "bytes": 351295
+    },
+    "status": {
+     "path": "status.b01e9544545a.json",
+     "sha256": "b01e9544545ab2669e7f2bf15fd75ed28cbd51d0b65d671d89a6b21b07a44a82",
+     "bytes": 21
+    }
+   },
+   "file_seq": {
+    "events": 3,
+    "campaigns": 3,
+    "status": 2
+   },
+   "content_hash": {
+    "events": "04ded1cc83f45c6c97673c4e6933474b10dd9d30bf03bf6b1fab55e38b23afc2",
+    "campaigns": "d129503e4564c6b47cf22f2e135e053690efda878c6498405991899d1179a155",
+    "status": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+   },
+   "counts": {
+    "events": 72,
+    "campaigns": 177,
+    "status": 0
+   },
+   "heartbeat": true
+  }
+ ]
+}
